@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('./lobster-regular-webfont.woff') format('woff'),
+    url('./lobster-regular-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+#content {
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+    
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(187, 110, 152);
+}
+
+h1 {
+    padding-left: 20px;
+    font-family: 'Lobster';
+    font-size: 2.5rem;
+    margin:20px;
+    
+}
+
+
+.tabs {
+    margin: 0;
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    gap: 20px;
+
+}
+
+.menu, .home, .about {
+    padding:20px;
+    align-self: center;
+}
