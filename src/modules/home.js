@@ -1,6 +1,6 @@
-import tasty from './tasty.jpg';
-import cozy from './cozy.jpg';
-import friendly from './friendly.jpg';
+import tasty from '../tasty.jpg';
+import cozy from '../cozy.jpg';
+import friendly from '../friendly.jpg';
 
 
 const main = document.querySelector('#content');

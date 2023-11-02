@@ -17,10 +17,11 @@ body {
 
 #content {
     background-color: rgb(243, 243, 239);
-    width: 75%;
+    width: 80%;
     height: 100vh;
     
 }
+/*header styling*/
 
 .header {
     width: 100%;
@@ -53,8 +54,14 @@ h1 {
 .menu, .home, .about {
     padding:20px;
     align-self: center;
+    cursor: pointer;
 }
+/*end of header*/
 
+/*Home Styling*/
+ 
+
+/*hero styling*/
 .hero {
     background:url('./teapot.jpg');
     width:100%;
@@ -91,24 +98,38 @@ h1 {
     font-weight: bold;
 
 }
+/*end of hero */
+
+/*info styling*/
 
 .info {
     display:flex;
     text-align: center;
+    background-color: white;
 }
 
 .box-one, .box-two, .box-three {
     flex:1;
+   
 }
 
 .box-header {
     font-family: 'Lobster', sans-serif;
     color:rgb(187, 110, 152);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    text-decoration: underline;
 }
 
 .info img {
     width:250px;
     height:auto;
     border-radius: 10px;
+
 }
+
+.box-words {
+    padding:20px;
+}
+/*end of info*/
+
+/* end of homepage*/
