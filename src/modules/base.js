@@ -1,5 +1,6 @@
+const main = document.querySelector('#content');
+
 function createHeader() {
-    const main = document.querySelector('#content');
     const div = document.createElement('div');
     const list = document.createElement('ul');
     const listItem = document.createElement('li')
@@ -24,4 +25,10 @@ function createHeader() {
     main.appendChild(div);
 }
 
-export {createHeader};
+function createFooter() {
+    const footer = document.createElement('footer');
+    footer.textContent = 'Made by Sascha H';
+    main.appendChild(footer);
+}
+
+export {createHeader, createFooter};

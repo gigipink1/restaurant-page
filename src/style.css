@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(204, 204, 204);
     margin: 0;
     display:flex;
     justify-content: center;
@@ -19,9 +19,12 @@ body {
     background-color: rgb(243, 243, 239);
     width: 80%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
-/*header styling*/
+/*--header styling--*/
 
 .header {
     width: 100%;
@@ -58,7 +61,8 @@ h1 {
 }
 /*end of header*/
 
-/*Home Styling*/
+
+/*--Home Styling--*/
  
 
 /*hero styling*/
@@ -106,10 +110,13 @@ h1 {
     display:flex;
     text-align: center;
     background-color: white;
+    flex:1;
+    flex-wrap: wrap;
 }
 
 .box-one, .box-two, .box-three {
     flex:1;
+    align-self: center;
    
 }
 
@@ -133,3 +140,17 @@ h1 {
 /*end of info*/
 
 /* end of homepage*/
+
+/* footer styling */
+
+footer {
+    text-align: center;
+    background-color: rgba(187, 110, 152, 0.712);
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size:1.25rem;
+    text-decoration: underline;
+
+}
+/*end of footer*/
