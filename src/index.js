@@ -1,4 +1,5 @@
 import './style.css'
+import { createHero, createInfo } from './home';
 
 
 function createHeader() {
@@ -27,27 +28,7 @@ function createHeader() {
     main.appendChild(div);
 }
 
-function createHero() {
-    const main = document.querySelector('#content');
-    const div = document.createElement('div');
-    const innerDiv = document.createElement('div');
-    const text = document.createElement('p');
-
-    div.classList.add('hero');
-    innerDiv.classList.add('words');
-    text.classList.add('heading');
-    text.textContent = 'This is a nice heading about the place';
-    innerDiv.appendChild(text.cloneNode(1));
-    text.classList.add('subheading');
-    text.classList.remove('heading');
-    text.textContent = 'This is some even more nice words about the place'
-    innerDiv.appendChild(text.cloneNode(1));
-    div.appendChild(innerDiv);
-    main.appendChild(div);
-   
-
-
-}
 
 createHeader();
 createHero();
+createInfo();

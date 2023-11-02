@@ -91,3 +91,24 @@ h1 {
     font-weight: bold;
 
 }
+
+.info {
+    display:flex;
+    text-align: center;
+}
+
+.box-one, .box-two, .box-three {
+    flex:1;
+}
+
+.box-header {
+    font-family: 'Lobster', sans-serif;
+    color:rgb(187, 110, 152);
+    font-size: 1.5rem;
+}
+
+.info img {
+    width:250px;
+    height:auto;
+    border-radius: 10px;
+}
