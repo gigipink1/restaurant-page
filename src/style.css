@@ -16,7 +16,7 @@ body {
 }
 
 #content {
-    background-color: rgb(243, 243, 239);
+    background-color: rgb(229, 240, 241);
     width: 80%;
     height: 100vh;
     display: flex;
@@ -242,5 +242,32 @@ footer {
     padding: 10px 30px;
 }
 
-
 /* end of menu */
+
+
+/* about styling */
+
+.about-body {
+    display:flex;
+}
+
+.contact-details p:nth-of-type(1) {
+    width: 144px;
+    
+}
+
+.opening-hours p:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+.contact-details, .opening-hours {
+    flex:1;
+    padding: 50px 100px;
+    background-color: white;
+
+}
+
+.about-body h2 {
+    font-family: 'lobster', sans-serif;
+}
+/* end of about*/
