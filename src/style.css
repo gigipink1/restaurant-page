@@ -199,12 +199,30 @@ footer {
     padding: 0;
 }
 
-.menu-page li {
-    padding: 20px;
-    margin: 20px;
-    font-size:1.5rem;
-    font-weight: bold;
+.food-list  {
+ font-weight: bold;
+
 }
+
+.food-item {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-family: 'lobster',sans-serif;
+}
+
+.food-item ul {
+    display:flex;
+    justify-content:space-between;
+    font-size:1rem;
+    font-family: sans-serif;
+}
+
+.food-item li {
+    font-weight: 500;
+    color:rgb(97, 97, 97);
+    padding: 20px;
+}
+
 
 
 /* end of menu */
