@@ -1,13 +1,12 @@
 import './style.css'
 import {createHeader, createFooter} from './modules/base';
 import { createHero, createInfo } from './modules/home';
-import {createMenu} from './modules/menu';
+import {createMenuLayout} from './modules/menu';
 
 
 
 
 
 createHeader();
-createMenu();
-
+createMenuLayout();
 createFooter();
