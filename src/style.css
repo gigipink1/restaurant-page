@@ -210,11 +210,24 @@ footer {
     font-family: 'lobster',sans-serif;
 }
 
-.food-item ul {
+.food-item ul, .drinks-item ul {
     display:flex;
     justify-content:space-between;
     font-size:1rem;
     font-family: sans-serif;
+}
+
+.drinks-item ul li:first-of-type {
+    font-size: 1.5rem;
+    font-family: 'lobster', sans-serif;
+}
+
+
+
+
+.drinks-item li {
+    font-weight: 500;
+    padding: 10px 20px;
 }
 
 .food-item li {
@@ -223,6 +236,11 @@ footer {
     padding: 20px;
 }
 
+.drinks-item:nth-of-type(6) li:first-of-type,
+.drinks-item:nth-of-type(7) li:first-of-type {
+    font-size: 18px;
+    padding: 10px 30px;
+}
 
 
 /* end of menu */
